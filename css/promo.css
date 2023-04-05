@@ -1,0 +1,36 @@
+.promo {
+  background-color: var(--background-color-accent);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.promo-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.promo-content {
+  width: 600px;
+}
+
+.promo-title {
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 30px;
+}
+
+.promo-text {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.promo-button {
+  font-size: 16px;
+}
+
+.promo-image {
+  display: block;
+  height: 470px;
+  width: 420px;
+}
