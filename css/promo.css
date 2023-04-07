@@ -31,6 +31,7 @@
 
 .promo-image {
   display: block;
-  height: 470px;
-  width: 420px;
+  height: 420px;
+  width: 470px;
+  object-position: center 30%;
 }
