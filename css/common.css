@@ -24,10 +24,21 @@ ul, ol, li {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
 img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+  vertical-align: top;
 }
 
 body {
@@ -44,10 +55,18 @@ body {
   padding: 0 15px;
 }
 
+.section-page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .title {
   font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 44px;
   font-weight: 500;
   color: var(--main-text-color);
+  margin-bottom: 30px;
 }
 
 .subtitle {
@@ -57,6 +76,12 @@ body {
   font-style: italic;
   color: var(--brand-color);
   margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 50px;
 }
 
 .social-list {
