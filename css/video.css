@@ -1,0 +1,22 @@
+.video-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-screen {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.video-controls {
+  position: absolute;
+  opacity: .8;
+}
+
+.video-btn {
+  background: transparent;
+  border: none;
+}
