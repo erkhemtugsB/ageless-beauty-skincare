@@ -122,4 +122,8 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .title {
+    font-size: 34px;
+    line-height: 37px;
+  }
 }
