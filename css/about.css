@@ -1,72 +1,78 @@
 .about {
-  padding-top: 115px;
-  padding-bottom: 115px;
-  text-align: center;
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: var(--background-color-accent);
 }
 
 .about-image {
-  background-image: url(../img/about-bg.jpg);
+  background-image: url(../img/about/about.jpg);
+  background-position: center top;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
+  width: 50%;
+  height: auto;
+  min-height: 300px;
+}
+
+.about-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 50%;
+  margin-right: 0;
+}
+
+.about-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about-description {
+  margin-bottom: 20px;
+}
+
+.about-phone-box {
+  display: grid;
+  grid-template-columns: 10% auto;
+  gap: 20px;
+  padding-top: 20px;
   margin-bottom: 50px;
 }
 
-.about-subtitle {
-  opacity: 0.78;
-  max-width: 385px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+.about-phone-content {
+  color: var(--brand-color);
 }
 
-.about-text {
-  max-width: 770px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+.about-phone {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 32px;
+  transition: all 0.5s;
 }
 
-.about-social-list {
-  justify-content: center;
-  margin-bottom: 40px;
+.about-phone:hover {
+  text-decoration: underline;
 }
 
-.about-social-link svg {
-  width: 29px;
-  height: 29px;
-}
 
-.about-buttons-box {
-  display: flex;
-  justify-content: center;
-  gap: 29px;
-}
-
-@media (max-width: 991px) {
+@media (max-width: 767.98px) {
   .about {
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
-}
-
-@media (max-width: 768px) {
-  .about-subtitle {
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 450px) {
-  .about-buttons-box {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column-reverse;
   }
 
-  .about {
-    padding-top: 115px;
-    padding-bottom: 115px;
-    text-align: center;
+  .about-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-image {
+    width: 100%;
+    height: 360px;
+  }
+
+  .about-content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
