@@ -13,12 +13,6 @@
   height: 50px;
 }
 
-.feature-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 22px;
-  line-height: 32px;
-}
-
 @media (max-width: 991.98px) {
   .features-items {
     grid-template-columns: 1fr 1fr;

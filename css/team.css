@@ -1,0 +1,33 @@
+.team {
+  text-align: center;
+}
+
+.team-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.team-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-item-description {
+  text-align: left;
+}
+
+.team-item-title {
+  padding-bottom: 10px;
+}
+
+.team-item-text {
+  color: var(--brand-color);
+}
+
+@media (max-width: 767.98px) {
+  .team-items {
+    grid-template-columns: 1fr;
+  }
+}

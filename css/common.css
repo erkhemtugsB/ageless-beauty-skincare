@@ -78,7 +78,12 @@ body {
   color: var(--brand-color);
   margin-bottom: 20px;
 }
-
+.title-item {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+}
 .section-description {
   font-size: 18px;
   line-height: 32px;
