@@ -114,6 +114,7 @@ body {
   color: var(--alternate-text-color);
   background-color: var(--brand-color);
   transition: all 0.5s;
+  display: inline-block;
 }
 
 .button:hover {
