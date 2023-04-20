@@ -29,11 +29,8 @@
 }
 
 .services-item-body {
-  padding: 30px 25px;
+  padding: 30px 5px;
   display: flex;
-  font-family: 'Playfair Display', serif;
-  font-size: 22px;
-  font-weight: 500;
   justify-content: center;
 }
 
@@ -46,12 +43,15 @@
   content: "";
   width: 20px;
   height: 1px;
-  top: 16px;
+  top: 18px;
   right: -25px;
   background-color: var(--main-text-color);
-  position: absolute;
+  position: absolute; 
 }
-
+.services-item-text {
+  font-size: 18px;
+  line-height: 38px;
+}
 .services-item-price {
   color: var(--brand-color);
 }
