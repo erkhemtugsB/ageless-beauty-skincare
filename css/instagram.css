@@ -51,11 +51,9 @@
 
   .instagram-gallery-button {
     padding: 10px 20px;
-    background-color: var(--background-color-accent);
-    opacity: 0.6;
-    border-radius: 50%;
   }
 }
+
 @media (max-width: 767.98px) {
   .instagram-gallery-box {
     grid-template-columns: repeat(2, 1fr);
