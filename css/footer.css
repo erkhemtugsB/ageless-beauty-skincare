@@ -25,6 +25,10 @@
   line-height: 24px;
 }
 
+.footer-social-link .logo_2gS {
+  fill: #fff;
+}
+
 @media (max-width: 479.98px) {
   .footer-top {
     flex-direction: column;
