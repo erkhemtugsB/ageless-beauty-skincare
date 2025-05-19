@@ -1,12 +1,11 @@
 (function () {
   const carouselInstagramItems = [
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/instagram/white-nails.jpg" alt="White Nails"></div>',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/instagram/silver-nails.jpg" alt="Silver Nails"></div>',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/instagram/wedding-nails.jpg" alt="Wedding Nails"></div>',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/instagram/beige-nails.jpg" alt = "Beige Nails"></div> ',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/instagram/lilac-nails.jpg" alt = "Lilac Nails"></div>',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/instagram/burgundy-nails.jpg" alt = "Burgundy Nails"></div>',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/instagram/blue-nails.jpg" alt = "Blue Nails"></div>',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/gallery1.webp" alt="Facial"></div>',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/gallery2.webp" alt="Facial"></div>',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/outside.jpg" alt="Location"></div>',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/hall.jpg" alt = "Hallway"></div> ',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/interior.jpg" alt = "Salon Interior"></div>',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/service.jpeg" alt = "Service"></div>',
   ];
   let currentItemIndex = 0;
   function renderInstagramCard() {
