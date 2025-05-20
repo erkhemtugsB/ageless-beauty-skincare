@@ -4,7 +4,7 @@
     '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/gallery2.webp" alt="Facial"></div>',
     '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src="img/outside.jpg" alt="Location"></div>',
     '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/hall.jpg" alt = "Hallway"></div> ',
-    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/interior.jpg" alt = "Salon Interior"></div>',
+    '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/interior.webp" alt = "Salon Interior"></div>',
     '<div class="instagram-gallery-item fade"><img class="instagram-gallery-item-img" src = "img/service.jpeg" alt = "Service"></div>',
   ];
   let currentItemIndex = 0;
