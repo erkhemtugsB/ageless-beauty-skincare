@@ -58,6 +58,8 @@
   font-weight: 500;
   color: var(--brand-color);
   text-align: right;
+  white-space: nowrap;
+
 }
 
 .pricing-button {
